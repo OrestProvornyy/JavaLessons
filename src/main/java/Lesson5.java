@@ -12,6 +12,9 @@ public class Lesson5 {
         Student student2 = new Student( "Tarasov", "Taras", 42,13 );
         student2.print();
 
+        Student student3 = new Student();
+        student3.print();
+
         System.out.println("\n\n\n\n");
 
         Student.str="animal";
