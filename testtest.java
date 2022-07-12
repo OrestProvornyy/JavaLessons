@@ -6,7 +6,7 @@ public class testtest {
                 cat1 = new Cat(false, "carrot", 1);
 
         cat.print();
-        System.out.println("(.)_(.)");
+        System.out.println("\n");
         cat1.print();
     }
 }
