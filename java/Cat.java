@@ -11,16 +11,16 @@ public class Cat extends Animal implements Pet {
 
     @Override
     public void feed() {
-        System.out.println("Feeeding  " + super.getName());
+        System.out.println("Feeeding cat " + super.getName());
     }
 
     @Override
     public void walk() {
-        System.out.println("Walking " + super.getName());
+        System.out.println("Walking with cat named" + super.getName());
     }
 
     @Override
     public void play() {
-        System.out.println("Playing with " + super.getName());
+        System.out.println("Playing with cat named" + super.getName());
     }
 }
