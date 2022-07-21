@@ -5,11 +5,11 @@ public class Wolf extends Animal implements WildAnimal{
 
     @Override
     void greets() {
-        System.out.println(super.getName()+ " says Hawoo");
+        System.out.println(super.getName() + " says Hawoo");
     }
 
     @Override
     public void hunting() {
-        System.out.println();
+        System.out.println(super.getName() + " goes hunting");
     }
 }
