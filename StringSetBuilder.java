@@ -7,7 +7,7 @@ import java.util.List;
 public class StringSetBuilder {
 
     public Collection<String> buildSet(String sentence) {
-        String[] words = sentence.split("\\P{L}+");
+        String[] words = sentence.split("\\P{L}+"); //найшов в гуглі таку штуку для видалення
 
         List<String> wordSet = new ArrayList<>();
 
