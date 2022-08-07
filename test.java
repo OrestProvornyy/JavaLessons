@@ -30,13 +30,6 @@ public class test {
         }
 
 
-   //     WebElement metaDate = driver.findElement(SEARCH);
-    //    if (!metaDate.getText().equals(text)){
-     //    throw new Exception("Text not equals");
-    //    }
-    //    searchField.sendKeys("JAVA");
-     //   searchField.submit();
-
 
         try {
             Thread.sleep(5000);
